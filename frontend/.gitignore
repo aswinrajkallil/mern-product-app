@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never commit secrets like MONGO_URI)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Test coverage
+coverage/
+
+# Caches
+.cache/
+.eslintcache
+.parcel-cache/
+.vite/
+
+# Editor and IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: lock files (remove these two lines if you want to commit them)
+# package-lock.json
+# yarn.lock
